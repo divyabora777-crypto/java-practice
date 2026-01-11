@@ -1,5 +1,4 @@
-import java.util.Scanner;
-
+import java.util.*;
 public class ATMApp {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -7,7 +6,7 @@ public class ATMApp {
         int choice;
 
         do {
-            System.out.println("\n--- ATM MENU ---");
+            System.out.println("ATM MENU");
             System.out.println("1. Check Balance");
             System.out.println("2. Deposit");
             System.out.println("3. Withdraw");
@@ -32,10 +31,9 @@ public class ATMApp {
                     System.out.println("Thank you for using ATM.");
                     break;
                 default:
-                    System.out.println("Invalid choice.");
+                System.out.println("Invalid choice.");
             }
-        } while (choice != 4);
-
+        } while (choice !=4);
         sc.close();
     }
 }
