@@ -16,7 +16,6 @@ This section contains basic Java programs related to problem solving.
 ### Programs included
 - Sum of array elements
 - Finding the maximum element in an array
-- Reversing a string
 These programs helped me understand how to work with arrays, strings,
 loops, and conditions in Java.
 ---
